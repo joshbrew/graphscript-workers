@@ -1,0 +1,36 @@
+{
+    "name": "graphscript-workers",
+    "version": "0.3.13",
+    "description": "Comprehensive acyclic-graph based application architecture with microservices and networking",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "start": "tinybuild",
+        "build": "tinybuild build",
+        "serve": "tinybuild serve",
+        "dev": "npm i -g tinybuild && tinybuild"
+    },
+    "keywords": [
+        "esbuild"
+    ],
+    "author": "Joshua Brewster",
+    "license": "LGPL-3.0-or-later",
+    "dependencies": {
+        "graphscript-core": "~0.3.4"
+    },
+    "devDependencies": {
+        "@types/node": "~20.12.7",
+        "web-worker": "~1.3.0",
+        "workercanvas": "~1.1.4"
+    },
+    "nodemonConfig": {
+        "env": {
+            "NODEMON": true
+        },
+        "ignore": [
+            "dist/",
+            ".temp/"
+        ]
+    }
+}
