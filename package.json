@@ -1,6 +1,6 @@
 {
     "name": "graphscript-workers",
-    "version": "0.3.13",
+    "version": "0.3.17",
     "description": "Comprehensive acyclic-graph based application architecture with microservices and networking",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
