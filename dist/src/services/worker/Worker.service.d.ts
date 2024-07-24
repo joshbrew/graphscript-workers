@@ -68,15 +68,15 @@ export declare class WorkerService extends Service {
         url?: URL | string | Blob;
         port?: MessagePort;
         _id?: string;
-        onmessage?: (ev) => void;
-        onerror?: (ev) => void;
+        onmessage?: (ev: any) => void;
+        onerror?: (ev: any) => void;
     }) => WorkerInfo;
     open: (options: {
         url?: URL | string | Blob;
         port?: MessagePort;
         _id?: string;
-        onmessage?: (ev) => void;
-        onerror?: (ev) => void;
+        onmessage?: (ev: any) => void;
+        onerror?: (ev: any) => void;
     }) => WorkerInfo;
     close: () => void;
     getTransferable(message: any): any;

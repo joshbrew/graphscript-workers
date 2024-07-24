@@ -1,6 +1,6 @@
 {
     "name": "graphscript-workers",
-    "version": "0.3.17",
+    "version": "0.3.18",
     "description": "Comprehensive acyclic-graph based application architecture with microservices and networking",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
@@ -17,7 +17,7 @@
     "author": "Joshua Brewster",
     "license": "LGPL-3.0-or-later",
     "dependencies": {
-        "graphscript-core": "~0.3.4"
+        "graphscript-core": "~0.3.6"
     },
     "devDependencies": {
         "@types/node": "~20.12.7",
